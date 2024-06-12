@@ -19,7 +19,7 @@ main{
     height: 80vh;
     background-color: azure;
     border-radius: 10px;
-    position: relative;
+    position: center;
     
 }
 .text{
@@ -103,4 +103,21 @@ main{
     
     color: rgb(132, 130, 130) !important;
     background-color: rgb(60, 60, 60) !important;
+}
+
+@media screen and (max-width:500px){
+    main{
+        max-width: 500px;
+        height: 100vh;
+        background-color: #2214ed;
+        
+    }
+    .container{
+        width: 90vw;
+        height: 90vh;
+        background-color: rgb(166, 223, 223);
+        margin: 10px;
+        
+    }
+    
 }
